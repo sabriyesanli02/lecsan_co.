@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+    background-color: #001f3f;
+    color: white;
+}
+.site-logo {
+    width: 180px; 
+    height: 180px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 4px solid #8e8e8e;
+    display: block; 
+}
+
+.header-container {
+    background-color: #001f3f;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 65px; 
+    letter-spacing: 3px;
+    white-space: nowrap; 
+}
+
+span {
+    color: #8e8e8e;
+}
+span{
+    color: #8e8e8e;
+    font-size: 60px;
+}
+table{
+    background-color: #8e8e8e;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+h2{
+    color: #001f3f;
+    font-size: 40px;
+}
