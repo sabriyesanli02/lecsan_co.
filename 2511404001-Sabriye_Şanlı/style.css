@@ -45,3 +45,44 @@ h2{
     color: #001f3f;
     font-size: 40px;
 }
+
+@media screen and (max-width: 768px) {
+    
+
+#wrapper {
+    width: 100% !important;
+    padding: 10px !important;
+    box-sizing: border-box;
+}
+
+table, tr, td {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+   
+table border="1" tr td, 
+tr td[align="center"] {
+    margin-bottom: 5px;
+    padding: 12px !important;
+}
+
+td[valign="top"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 20px;
+}
+
+   
+.header-container table tr td {
+    text-align: center !important;
+    padding: 10px 0 !important;
+}
+    
+   
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+}
